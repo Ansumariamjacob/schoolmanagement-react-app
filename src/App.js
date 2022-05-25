@@ -7,6 +7,7 @@ import Search from './component/Search';
 import Addfaculity from './component/Addfaculity';
 import Searchfac from './component/Searchfac';
 import ViewStud from './component/ViewStud';
+import Viewfac from './component/Viewfac';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Addfaculity/>
       <Searchfac/>
       <ViewStud/>
+      <Viewfac/>
     </div>
   );
 }
