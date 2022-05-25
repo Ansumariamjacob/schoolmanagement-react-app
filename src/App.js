@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Search from './component/Search';
 import Addfaculity from './component/Addfaculity';
 import Searchfac from './component/Searchfac';
+import ViewStud from './component/ViewStud';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Search/>
       <Addfaculity/>
       <Searchfac/>
+      <ViewStud/>
     </div>
   );
 }
